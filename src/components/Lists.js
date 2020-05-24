@@ -1,5 +1,5 @@
 import React from 'react';
-import List from './List';
+// import List from './List';
 import ListContainer from '../containers/ListContainer';
 
 const Lists = ({ lists = [] }) => {
@@ -8,7 +8,7 @@ const Lists = ({ lists = [] }) => {
       {/* {lists.map((list) => ( */}
         {/* <List />*/}
         {lists.map((listId) => (
-        <ListContainer listId={listId}/>
+        <ListContainer listId={listId} key={listId}/>
       ))}
     </section>
   );
