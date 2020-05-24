@@ -1,9 +1,5 @@
 # Kanbonanza
 
-## Course
-
-This project was built to teach the [Advanced State Management in React (feat. Redux and MobX) Course](https://frontendmasters.com/courses/react-state/) for Frontend Masters.
-
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
