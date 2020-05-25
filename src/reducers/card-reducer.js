@@ -5,8 +5,8 @@ const cardReducer = (cardState = cards, action) => {
     if (action.type === VARIABLE.CARD_CREATE) {
         const { card, cardId } = action.payload;
         return {
-            entities: { ...cards.entities, [cardId]: card },
-            ids: [...cards.ids, cardId]
+            entities: { ...cardState.entities, [cardId]: card },
+            ids: [...cardState.ids, cardId]
         }
     }
     return cardState;

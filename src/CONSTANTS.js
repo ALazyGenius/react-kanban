@@ -1,5 +1,6 @@
 const VARIABLE = {
-    CARD_CREATE: "CARD_CREATE"
+    CARD_CREATE: "CARD_CREATE",
+    LIST_CREATE: "LIST_CREATE",
 }
 
 export default VARIABLE;

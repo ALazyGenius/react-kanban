@@ -4,6 +4,8 @@ import Users from './Users';
 import CreateList from './CreateList';
 import Lists from './Lists';
 
+import CreateListContainer from '../containers/CreateListContainer';
+
 import ListsContainer from '../containers/ListsContainer';
 
 const Application = () => {
@@ -11,8 +13,9 @@ const Application = () => {
     <main className="Application">
       <Users />
       <section>
-        <CreateList />
+        {/* <CreateList /> */}
         {/* <Lists /> */}
+        <CreateListContainer />
         <ListsContainer />
       </section>
     </main>
